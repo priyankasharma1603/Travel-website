@@ -1,0 +1,44 @@
+
+:root {
+    --primary-color: #ff7e01;
+    --secondary-color: #faa935;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name: "Island Moments", cursive;
+  }
+.search__bar{
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: max-content;
+    margin-top: 50px;
+}
+.form__group span{
+    font-size: 1.8rem;
+    color: #ee6e6e;
+}
+.form__group input{
+    border: none;
+    font-size: 0.9rem;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+.form__group input:focus{
+    outline: none;
+}
+
+.form__group h6{
+    margin-bottom: 0;
+}
+.form__group-fast{
+    border-right: 2px solid rgb(234, 234, 234);
+}
+.search_icon{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+}

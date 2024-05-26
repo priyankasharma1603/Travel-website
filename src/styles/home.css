@@ -1,0 +1,124 @@
+:root {
+    --primary-color: #ff7e01;
+    --secondary-color: #faa935;
+    --heading-color: #0b2727;
+    --text-color: #6e7074;
+    --font-name: "Montserrat", sans-serif;
+    --subtitle-font-name: "Island Moments", cursive;
+  }
+.hero__subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+
+}
+.hero__content h3{
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.hero__content h1.highlight{
+    color: var(--secondary-color);
+}
+.hero__content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+.hero__img-box img,
+ .hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 2px solid var(--secondary-color);
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hero__content{
+    padding-top: 3.5rem;
+}
+.hero__img-box{
+    padding-top: 2rem;
+}
+.services__subtitle{
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #f07312;
+    font-family: var(--subtitle-font-name);
+
+}
+.services__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: gerogia;
+    text-shadow: #FC0 1px 0 10px;
+    
+
+}
+.featured__tour-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: gerogia;
+    text-shadow: #FC0 1px 0 10px;
+
+}
+.experience__content{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.experience__content p{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+
+}
+.experience__content h2{
+
+    font-size: 2.2rem;
+    font-family: gerogia;
+    text-shadow: #FC0 1px 0 10px;
+}
+.counter__wrapper{
+    margin-top: 1rem;
+}
+.counter__box span{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: aliceblue;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+.counter__box h6{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 0.7rem;
+}
+.experienceImg img{
+       width: 90%;
+}
+.gallery__title{
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-family: gerogia;
+    text-shadow: #FC0 1px 0 10px;
+}
+.masonry__img{
+    transition: .3s;
+}
+.masonry__img:hover{
+    transform: scale(1.1);
+}
+.testimonial__title{
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    text-shadow: #FC0 1px 0 10px;
+}
